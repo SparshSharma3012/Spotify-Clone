@@ -1,0 +1,65 @@
+.footer{
+    position: fixed;
+    display:flex;
+    justify-content: space-between;
+    bottom: 0;
+    height: 65px;
+    width: 98%;
+    background-color: #181818;
+    padding: 20px;
+}
+
+.footer_left{
+    flex:0.3;
+    display: flex; 
+    align-items: center;
+    color: aliceblue;
+    width: 300px;
+}
+
+.footer_center{
+    flex:0.2;
+    padding :0 150px;
+    color:aliceblue;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    max-width: 300px;
+}
+
+.footer_right{
+    flex:0.3;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: aliceblue;
+}
+.footer_albumlogo{
+    margin-right:20px;
+    object-fit: contain;
+    height: 60px;
+    width: 60px;
+}
+
+.footer_icon{
+    cursor: pointer;
+    transition: 200ms ;
+}
+.footer_icon:hover{
+    color:#1db954;
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2) ;
+}
+
+.footer_left>h4{
+    margin-bottom: 5px;
+}
+.footer_left>p{
+    font-size:12px;
+}
+
+.footer_right * .MuiSlider-root{
+    color:#1db954
+}
+
+

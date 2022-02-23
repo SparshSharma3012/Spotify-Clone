@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.header_left{
+    flex:0.6;
+    min-width:50px;
+    max-width:250px;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    color: #B3B3B3;
+    border-radius: 30px;
+    padding:10px;
+    height: 60%;
+}
+.header_right>avatar{
+    /* size: 70%; */
+}
+
+.header_right{
+
+    background: rgba(0, 0, 0, 0.73);
+    border-radius:30px;
+    align-items: center;
+    display:flex;
+    width: 120px;
+    height:40px;
+   
+}
+
+.header_left>input{
+    border:none;
+    width: 100%;
+}
+
+.header_right>h4{
+    margin-left: 10px;
+}
